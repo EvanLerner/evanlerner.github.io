@@ -63,26 +63,25 @@ body {
 /* Left column */
 .leftcolumn {
   float: left;
-  width: 75%;
+  width: 50%;
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 25%;
+  width: 50%;
   background-color: #f1f1f1;
   padding-left: 20px;
-  text-align: center
 }
 
 /* Fake image */
 .fakeimg {
-  background-image: url("me.jpg");
+  background-image: url("therealstar.png");
   background-color: white;
   background-repeat: no-repeat;
   width: 100%;
-  background-position: center;
-  padding: 20px;
+  height: 350px;
+  background-position: left;
 }
 
 /* Add a card effect for articles */
@@ -113,6 +112,13 @@ body {
     width: 100%;
     padding: 0;
   }
+
+  .fakeimg{
+    background-image: url("therealstarr.png");
+  }
+
+
+
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -127,41 +133,49 @@ body {
 <body>
 
 <div class="header">
-  <h1><span>Evan Lerner Tutoring</span></h1>
-  <p><span>Email: ezlerner51@gmail.com</span> &nbsp; &nbsp; &nbsp; <span>Text or Call: 224-616-0922</span></p>
+  <h1><span>About Me</span></h1>
+  <p><span>Email: ezlerner51@gmail.com</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Text or Call: 224-616-0922</span></p>
 </div>
 
 <div class="topnav">
-  <a href="#" style = "color: black; background-color: white">Home</a>
-  <a href="aboutme.html">About Me</a>
+  <a href="index.html">Home</a>
+  <a href="#" style = "color: black; background-color: white">About Me</a>
   <a href="Schedule.html">Schedule</a>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>Session Information</h2>
-      <p style = "line-height: 25px;">Welcome! I am a profficient Math Tutor, who has several year of expirience teaching at Mathnasium, as well
-      as in private tutoring. My sessions involve one on one math learning (but 2 or 3 on one is possible), all of which is currently online. We will
-      meet through Zoom for about one hour and help your child either catch up or blast ahead of his/her grade level.
-      No prior knowledge is required, but if there is any information you want to tell me about your childs learning process,
-      I would appreciate it. <b>The main grades that I tutor are K-5. </b>
-      Rates are normally 15$ per session. If you have any questions <b> email me at ezlerner51@gmail.com, </b>
-      or <b>text me at 224-616-0922</b>.</p>
+      <h2 style = "padding: 0px">Evan Lerner's Work</h2>
+      <h5></h5>
+      <div class="fakeimg"></div>
+      <p>I have had a large variety of jobs in the past</p>
+      <li>Camp Counselor</li>
+      <li>Actor</li>
+      <li>Photographer</li>
+      <li>Sub Sandwich Constructor</li>
+      <li>Baby Sitter</li>
+      <li>Lawn Care Worker</li>
+      <li>And of course... Tutor</li>
     </div>
 
   </div>
   <div class="rightcolumn">
     <div class="card">
       <h2>About Me</h2>
-      <div class="fakeimg" style="height:200px;"></div>
-      <p>Inclined to investigate this inquisitorial instructor?</p>
-      <p><a href="aboutme.html">Click Here</a> to find out more!</p>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
     </div>
 
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
   </div>
 </div>
 
+<div class="footer">
+  <h2>Footer</h2>
+</div>
 
 </body>
 </html>

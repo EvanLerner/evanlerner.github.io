@@ -5,6 +5,7 @@
 * {
   box-sizing: border-box;
 }
+h3.groove span{border-style: groove; padding: 5px; background-color: white}
 
 body {
   font-family: Arial;
@@ -14,13 +15,27 @@ body {
 
 /* Header/Blog Title */
 .header {
+  background-image: url("mathbackground.webp");
   padding: 30px;
   text-align: center;
-  background: Bisque;
+  background-color: Bisque;
+
 }
 
 .header h1 {
   font-size: 50px;
+}
+.header h1 span{
+
+  background-color: honeydew;
+  border: 10px solid honeydew;
+  border-radius: 10px;
+}
+.header p span{
+
+  background-color: honeydew;
+  border: 5px solid honeydew;
+  border-radius: 10px;
 }
 
 /* Style the top navigation bar */
@@ -54,9 +69,9 @@ body {
 
 /* Right column */
 .rightcolumn {
-  float: left;
-  width: 40%;
-  background-color: #f1f1f1;
+  float: center;
+  width: 100%;
+  background-color: #black;
   padding-left: 20px;
 }
 
@@ -112,44 +127,20 @@ body {
 <body>
 
 <div class="header">
-  <h1>Contact</h1>
-  <p>Email: ezlerner51@gmail.com &nbsp; &nbsp; &nbsp; &nbsp; Text or Call: 224-616-0922</p>
+  <h1><span>Schedule</span></h1>
+  <p><span>Email: ezlerner51@gmail.com</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Text or Call: 224-616-0922</span></p>
 </div>
-
 <div class="topnav">
   <a href="index.html">Home</a>
-  <a href="#" style = "color: black; background-color: white">Contact</a>
-  <a href="#">Schedule</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="#" style = "color: black; background-color: white">Schedule</a>
 </div>
 
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg.jpg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
+<h3 class = groove style = "text-align: center"><span>Here is my Schedule. I try to add everything to it and keep it up to date. It should be a good reference for my schedule.</span></h3>
 
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>About Me</h2>
-      <div class="fakeimg" style="height:200px;"></div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    </div>
-
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
-    </div>
-  </div>
-</div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+<p style = "text-align: center">
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%239ffca0&amp;ctz=America%2FChicago&amp;src=ZXpsZXJuZXI1MUBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23F6BF26&amp;color=%237CB342" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</p>
 
 </body>
 </html>
