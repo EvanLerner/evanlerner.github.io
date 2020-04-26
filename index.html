@@ -83,6 +83,17 @@ body {
   width: 100%;
   background-position: center;
   padding: 20px;
+
+}
+
+.thinking{
+  background-image: url("thinkingface.PNG");
+  background-color: white;
+  background-repeat: no-repeat;
+  width: 801px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, .2);
+
 }
 
 /* Add a card effect for articles */
@@ -109,7 +120,7 @@ body {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
+  .leftcolumn, .rightcolumn, .thinking {
     width: 100%;
     padding: 0;
   }
@@ -132,7 +143,7 @@ body {
 </div>
 
 <div class="topnav">
-  <a href="" style = "color: black"; "background-color: white">Home</a>
+  <a href="" style = "color: black; background-color: white">Home</a>
   <a href="aboutme.html">About Me</a>
   <a href="Schedule.html">Schedule</a>
 </div>
@@ -141,25 +152,35 @@ body {
   <div class="leftcolumn">
     <div class="card">
       <h2>Session Information</h2>
-      <p style = "line-height: 25px;">Welcome! I am a profficient Math Tutor, who has several year of expirience teaching at Mathnasium, as well
-      as in private tutoring. My sessions involve one on one math learning (but 2 or 3 on one is possible), all of which is currently online. We will
-      meet through Zoom for about one hour and help your child either catch up or blast ahead of his/her grade level.
-      No prior knowledge is required, but if there is any information you want to tell me about your childs learning process,
-      I would appreciate it. <b>The main grades that I tutor are K-5. </b>
-      Rates are normally 15$ per session. If you have any questions <b> email me at ezlerner51@gmail.com, </b>
-      or <b>text me at 224-616-0922</b>.</p>
+        <div class = "thinking" style= "height: 298px"> </div>
+        <p style = "line-height: 25px;">Welcome! I am a proficient Math Tutor, who has several year of expirience teaching at Mathnasium, as well
+          as in private tutoring. My sessions involve one on one math learning (but 2 or 3 on one is possible), all of which is currently online. We will
+          meet through Zoom for about one hour and help your child either catch up or blast ahead of his/her grade level.
+          No prior knowledge is required, but if there is any information you want to tell me about your childs learning process,
+          I would appreciate it. <b>The main grades that I tutor are K-5. </b>
+          Rates are normally 15$ per session. If you have any questions <b> email me at ezlerner51@gmail.com, </b>
+          or <b>text me at 224-616-0922</b>.</p>
     </div>
 
   </div>
   <div class="rightcolumn">
     <div class="card">
       <h2>About Me</h2>
-      <div class="fakeimg" style="height:200px;"></div>
+      <a href="aboutme.html"><div class="fakeimg" style="height:200px;"></div></a>
       <p>Inclined to investigate this inquisitorial instructor?</p>
       <p><a href="aboutme.html">Click Here</a> to find out more!</p>
     </div>
 
+    <div class = "card">
+      <h2> Schedule</h2>
+      <p>Want to set up a Tutoring session?</p>
+      <p>Look at <a href = "Schedule.html">My Schedule</a> to see when I am availiable</p>
+    </div>
+
   </div>
+</div>
+<div class="footer">
+  <h2>Send any questions or concerns to ezlerner51@gmail.com</h2>
 </div>
 
 

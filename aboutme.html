@@ -63,24 +63,24 @@ body {
 /* Left column */
 .leftcolumn {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 50%;
+  width: 60%;
   background-color: #f1f1f1;
   padding-left: 20px;
 }
 
 /* Fake image */
 .fakeimg {
-  background-image: url("therealstar.png");
+  background-image: url("therealstarr.png");
   background-color: white;
   background-repeat: no-repeat;
   width: 100%;
-  height: 350px;
+  height: 325px;
   background-position: left;
 }
 
@@ -89,6 +89,12 @@ body {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+}
+.card2{
+  background-image: url("umnbanner.jpg");
+  padding: 20px;
+  margin-top: 20px;
+
 }
 
 /* Clear floats after the columns */
@@ -107,7 +113,7 @@ body {
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
@@ -147,11 +153,11 @@ body {
   <div class="leftcolumn">
     <div class="card">
       <h2 style = "padding: 0px">Evan Lerner's Work</h2>
-      <h5></h5>
+      <hr>
       <div class="fakeimg"></div>
       <p>I have had a large variety of jobs in the past</p>
       <li>Camp Counselor</li>
-      <li>Actor</li>
+      <li><a href = "http://chicagotheaterbeat.com/tag/evan-lerner/" target="_blank">Actor</a></li>
       <li>Photographer</li>
       <li>Sub Sandwich Constructor</li>
       <li>Baby Sitter</li>
@@ -162,19 +168,25 @@ body {
   </div>
   <div class="rightcolumn">
     <div class="card">
-      <h2>About Me</h2>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h2 style = "padding: 0px">About Me</h2>
+      <hr>
+      <img src="rowing.jpg" alt="rowing" width="500" height="300">
+      <p>I am a fun loving guy with a curious mind. Working and school are big parts of my life, but I also pursue productive hobbies in my free time.
+      I enjoy coding (like for this website), playing guitar, and rowing. As for my future ambitions, I hope to one day join the ranks of the Marines
+      as an Officer in cyber security, and am currently enrolled in an officer candidate program. This has taught me to apreciate hard work and effort,
+      as well as the importance of not just doing something until it is done, but doing it right.</p>
     </div>
 
     <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
+      <h2 style = "background-color: Maroon; padding: 3px; color: Gold">School Work</h2 >
+      <p>I currently attend University of Minnesota: Twin Cities. My current majors are Comptuer Science
+        as well as Deutsch. Outside of class, I am on the Minnesota Men's Crew team.</p>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <h2>Check out my LinkedIn by <a href "https://www.linkedin.com/in/evan-lerner-a42a29147/" target="_blank">Clicking Here</a></h2>
 </div>
 
 </body>
